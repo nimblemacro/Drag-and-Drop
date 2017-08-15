@@ -1,24 +1,3 @@
-# Jquery Drag and Drop
-
-<img width="900" src="img/drag_drop1.png" border="0" />
-
-## About
-Using Jquery, Html, CSS and Javascript, implement the D & D(drag and drop), clone, resize, rotate and remove.
-This Jquery Drag and Drop example is written by [Big Silver].
-
-## Quick Start
-
-For begin, clone this project and run the following commands in your terminal:
-
-```ssh
-$ git clone https://github.com/Big-Silver/Drag-and-Drop.git drag_drop
-$ cd drag_drop 
-$ Run index.html in browser.
-```
-
-```bash
-In drag_drop.js
-
 $(document).ready(function(){
 	$(".mozgat").draggable({
 	  helper: "clone",
@@ -109,5 +88,3 @@ function applyRotation() {
     }
   });
 }
-
-```
